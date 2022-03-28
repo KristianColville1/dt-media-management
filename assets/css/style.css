@@ -63,12 +63,14 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
+    color: var(--space-cadet);
+    width: 90px;
+    display: block;
     cursor: pointer;
 }
 
 nav li:hover {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 /*--------------------------------------------------------------------------- default classes */
