@@ -24,7 +24,7 @@ body {
 .logo-img {
     width: 150px;
     height: 150px;
-    background: url('/assets/images/logo/logo_transparent.png') center center no-repeat;
+    background: url('../images/logo/logo_transparent.png') center center no-repeat;
     background-size: contain;
     position: absolute;
     top: -20%;
@@ -46,6 +46,26 @@ header {
 /*--------------------------------------------------------------------------- default classes */
 .float-left {
     float: left;
+}
+/*---------------------------------------------------------------------------- sections */
+
+.container-1{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 101px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-1 {
+    width: 600px;
+    height: 400px;
+    background: url('../images/office-workers.jpg') center center no-repeat;
+    background-size: contain;
+    opacity: 60%;
 }
 
 /* -------------------------------------------------------------------------- footer */
