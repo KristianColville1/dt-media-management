@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;600&display=swap');
+
+:root{
+    --crimson: #d7263dff;
+    --cool-grey: #8789c0ff;
+    --space-cadet: #2e294eff;
+    --celadon-blue: #007ea7ff;
+    --white: #fefeffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    background: url('/assets/images/logo/logo_transparent.png') center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -20%;
+}
+
+.logo-img a {
+    cursor: pointer;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--white);
+    border-bottom: 1px inset var(--space-cadet);
+    position: fixed;
+
+}
+/*--------------------------------------------------------------------------- default classes */
+.float-left {
+    float: left;
+}
+
+/* -------------------------------------------------------------------------- footer */
+footer {
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    height: 60px;
+    width: 700px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+footer ul {
+    list-style-type: none;
+    float: right;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 2rem;
+    color: var(--space-cadet);
+    padding-right: 8px;
+}
