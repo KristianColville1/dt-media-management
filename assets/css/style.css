@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=IBM+Plex+Sans+Arabic:wght@300;600&display=swap');
 
 :root{
     --crimson: #d7263dff;
@@ -43,6 +43,34 @@ header {
     position: fixed;
 
 }
+
+nav {
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    width: 50%;
+    height: 100px;
+    list-style-type: none;
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+nav li:hover {
+    font-size: 1.3rem;
+}
+
 /*--------------------------------------------------------------------------- default classes */
 .float-left {
     float: left;
